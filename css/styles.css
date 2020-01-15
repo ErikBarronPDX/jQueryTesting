@@ -1,0 +1,15 @@
+.jumbotron{
+  text-align: center;
+}
+
+.notShown {
+  display: none;
+}
+
+.indent {
+  margin-left: 15px;
+}
+
+.indent2 {
+  margin-left: 30px;
+}
