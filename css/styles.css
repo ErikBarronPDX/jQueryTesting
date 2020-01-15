@@ -6,6 +6,11 @@
   display: none;
 }
 
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
 .indent {
   margin-left: 15px;
 }

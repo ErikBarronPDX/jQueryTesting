@@ -52,6 +52,35 @@
         <p>}</p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <button class="btn btn-warning" id="darkMode">Toggle Dark-Mode</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h4>HTML</h4>
+        &lt;button class="btn btn-warning" id="darkMode"&gt;Toggle Dark-Mode&lt;/button&gt;<br>
+      </div>
+      <div class="col-md-3">
+        <h4>JS</h4>
+        <p>$(document).ready(function() {</p>
+        <p class="indent">$("#darkMode).click(function() {</p>
+        <p class="indent2">$("body").toggleClass("darkMode");</p>
+        <p class="indent">});</p>
+        <p>});</p>
+      </div>
+      <div class="col-md-3">
+        <h4>CSS</h4>
+        <p>.darkMode {</p>
+        <p class="indent">background-color: black;</p>
+        <p class="indent">color: white;</p>
+        <p>}</p>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
