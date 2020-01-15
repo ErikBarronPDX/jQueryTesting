@@ -3,8 +3,7 @@ $(document).ready(function() {
     $(".notShown").toggle();
   })
 
-  $("#darkMode").click(function() {
+  $("#darkMode").click(function() { 
     $("body").toggleClass("darkMode");
   });
 })
-
